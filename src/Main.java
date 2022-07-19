@@ -25,27 +25,22 @@ public class Main {
 //            1 2 3 4 5 6 7 8 9 10
 //            10 9 8 7 6 5 4 3 2 1
     public static void task1(){
-        int i=1;
-        while(i<=10) {
+        int i=0;
+        while(i<10) {
+            i++;
             if(i<10) {
                 System.out.print(i + " ");
-
             }else{
                 System.out.print(i+"\n");
             }
-            i++;
         }
-
-        i=10;
-        while(i>=1) {
+        for(; i>=1; i--) {
             if(i>1) {
                 System.out.print(i + " ");
             }else{
                 System.out.print(i+"\n");
             }
-            i--;
         }
-
     }
 
 //    ### Задание 2
